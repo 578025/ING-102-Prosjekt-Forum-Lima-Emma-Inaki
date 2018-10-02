@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<band>
+  <name> Tabell </name>
+  <Header>
+  Kategori
+  </Header>
+  <Header>
+  Favoritt
+  </Header>
+  <Kategori>
+    Spill
+  </Kategori>
+  <Favoritt>
+  Noe
+  </Favoritt>
+  <Kategori>
+    Filmer
+  </Kategori>
+   <Favoritt>
+  Noe
+  </Favoritt>
+  <Kategori>
+    Bøker
+  </Kategori>
+   <Favoritt>
+  Noe
+  </Favoritt>
+  <Kategori>
+    Mat
+  </Kategori>
+   <Favoritt>
+  Noe
+  </Favoritt>
+    <Kategori>
+    Dyr
+  </Kategori>
+   <Favoritt>
+  Noe
+  </Favoritt>
+      <Kategori>
+    TV-serie
+  </Kategori>
+   <Favoritt>
+  Noe
+  </Favoritt>
+  
+</band>
