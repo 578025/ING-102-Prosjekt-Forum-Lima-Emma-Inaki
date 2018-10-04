@@ -1,6 +1,29 @@
 body {
   font-family: 'Fjord One', serif;
 }
+#tabell {
+ 
+    border-collapse: collapse;
+    width: 20%;
+}
+
+#tabell td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tabell tr{
+	background-color: #95a5a6;
+	}
+
+
+#tabell th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #8e44ad;
+    color: white;
+}
 .meg {
     margin:25px;
 	padding:50px;
