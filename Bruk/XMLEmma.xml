@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<band>
+  <name>  </name>
+  <Header>
+  Kategori
+  </Header>
+  <Header>
+  Favoritt
+  </Header>
+  <Kategori>
+    Tastatur
+  </Kategori>
+  <Favoritt>
+  QWERTY
+  </Favoritt>
+  <Kategori>
+    Film/filmserie
+  </Kategori>
+   <Favoritt>
+  Harry Potter
+  </Favoritt>
+  <Kategori>
+    Bok/bokserie
+  </Kategori>
+   <Favoritt>
+  Harry Potter
+  </Favoritt>
+  <Kategori>
+    Tv-serie
+  </Kategori>
+   <Favoritt>
+  Game of Thrones
+  Outlander
+  Sherlock  
+  </Favoritt>
+    <Kategori>
+    Størrelse på ark
+  </Kategori>
+   <Favoritt>
+  A5
+  </Favoritt>
+  
+  
+</band>
