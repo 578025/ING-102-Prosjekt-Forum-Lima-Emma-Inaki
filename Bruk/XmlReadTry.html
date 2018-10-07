@@ -20,7 +20,7 @@
 		var f = docX.getElementsByTagName("Favoritt");
 		var g = docX.getElementsByTagName("Header");
         
-        document.write("<table border='1' style='color:black'>" );
+        document.write("<table id=tabell>" );
 		 for (j = 0; j < g.length; j++) {
             document.writeln("<th>" + g[j].textContent +  "</th>");
         }

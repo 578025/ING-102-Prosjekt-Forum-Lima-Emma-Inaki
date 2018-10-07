@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <band>
-  <name> Tabell </name>
+  <name>  </name>
   <Header>
   Kategori
   </Header>
@@ -20,7 +20,7 @@
   Noe
   </Favoritt>
   <Kategori>
-    Bok/bokserier
+    Bok/bokserie
   </Kategori>
    <Favoritt>
   Noe
@@ -32,7 +32,7 @@
   Noe
   </Favoritt>
     <Kategori>
-    Ark
+    Størrelse på ark
   </Kategori>
    <Favoritt>
   Noe
