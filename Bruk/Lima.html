@@ -1,26 +1,28 @@
  <!DOCTYPE html>
 <html>
-<body>
+
 <head>
-  <head>
+   <title>Lima Aliar</title>
+  <meta charset="utf-8"> 
 
         <link rel="Stylesheet"
               type="text/css"
               href="HOVED.css">
       <link href="https://fonts.googleapis.com/css?family=Fjord+One" rel="stylesheet">
 			  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-        <title>Lima Aliar</title>
 
-    </head>
-    <header> <h1>Forum</h1></header>
-<meta charset="utf-8"> <title> Emma </title>
+  
+	
+	
+ 
+
 
 <style>@import url('https://fonts.googleapis.com/css?family=Fjord+One');</style>
 
 
 </head>
-
-
+<body>
+   <header> <h1>Forum</h1></header>
 <ul>
        <!--erstatt #home, "news, "news, med riktige linker-->
        <li><a href="Forside.html">Hjem</a></li>
@@ -38,7 +40,7 @@
 
 
 
-<a href="https://imgur.com/uvxMabx"><img class="b" src="https://i.imgur.com/uvxMabx.jpg" title="source: imgur.com" width="200" length=110/></a><!--sett inn ditt bilde her-->
+<a href="https://imgur.com/uvxMabx"><img class="b" alt=Lima src="https://i.imgur.com/uvxMabx.jpg" title="source: imgur.com" width="200" length=110/></a><!--sett inn ditt bilde her-->
 
 
 	<div class="meg">
@@ -62,12 +64,37 @@
 </table>
 
 </div>
+<script>
+        // Get the XML document
+        var Connect = new XMLHttpRequest();
+        Connect.open("GET", "XML-Lima.xml", false);
+        Connect.send(null)
+        // Place the response in an XML document 
+        var docX = Connect.responseXML;
+        // Get the first <name> element content and display in <h1> style    
+        document.writeln("<h1>" + docX.getElementsByTagName("name")[0].textContent + "</h1>");
+
+        // Get all the member element contents and create a table dynamically
+        var e = docX.getElementsByTagName("Kategori");
+		var f = docX.getElementsByTagName("Favoritt");
+		var g = docX.getElementsByTagName("Header");
+        
+        document.write("<table id=tabell>" );
+		 for (j = 0; j < g.length; j++) {
+            document.writeln("<th>" + g[j].textContent +  "</th>");
+        }
+        for (i = 0; i < e.length; i++) {
+            document.writeln("<tr>  <td>" + e[i].textContent + "</td> <td>" + f[i].textContent + "</td></tr>");
+        }
+        document.write("</table>")
+    </script>
 
 <div class="funfact">
-  <a href="https://imgur.com/keoMBMM"><img width="500" src="https://i.imgur.com/keoMBMM.png" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/keoMBMM"><img width="500" alt=sky src="https://i.imgur.com/keoMBMM.png" title="source: imgur.com" /></a>
 
   <div class="centered">Lima kan snakke fire språk flytende, fordi å forvirre barnet ditt med bare ett nytt språk når de er født ikke er nok.</div> <!--Her setter vi inn en fakt om oss-->
 </div>
+
 
 
 </body>
