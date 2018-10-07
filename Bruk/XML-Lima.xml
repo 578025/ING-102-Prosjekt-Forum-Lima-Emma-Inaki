@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<band>
+  <name> Tabell </name>
+  <Header>
+  Kategori
+  </Header>
+  <Header>
+  Favoritt
+  </Header>
+  <Kategori>
+    Tastatur
+  </Kategori>
+  <Favoritt>
+  QWERTY
+  </Favoritt>
+  <Kategori>
+    Film/filmserie
+  </Kategori>
+   <Favoritt>
+  Iron man
+  </Favoritt>
+  <Kategori>
+    Bok/bokserier
+  </Kategori>
+   <Favoritt>
+  Harry potter
+  </Favoritt>
+  <Kategori>
+    Tv-serie
+  </Kategori>
+   <Favoritt>
+  The office
+  </Favoritt>
+    <Kategori>
+    Ark
+  </Kategori>
+   <Favoritt>
+  A5
+  </Favoritt>
+
+
+</band>
