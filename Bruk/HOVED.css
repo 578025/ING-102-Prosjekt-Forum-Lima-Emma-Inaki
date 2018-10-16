@@ -9,6 +9,11 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+	position: fixed;
+	bottom: 100px;
+    left: 0;
+
+   
 }
 
 
