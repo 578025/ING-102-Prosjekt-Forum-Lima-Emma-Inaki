@@ -2,6 +2,19 @@ body {
   font-family: 'Fjord One', serif;
 }
 
+ .linker:link, .linker:visited {
+    background-color: #8e44ad;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.linker:hover, .linker:active {
+    background-color: #95a5a6;
+}
 
 
 .beskrivelse {
