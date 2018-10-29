@@ -99,7 +99,7 @@ img.a {
 
 }
 html {
-    background: #red; /* fallback color */
+    background: red; 
     background: linear-gradient( to bottom,#040308, #AD4A28, #DD723C, #FC7001, #DCB697, #9BA5AE, #3E5879, #020B1A );
     background-repeat: no-repeat;
     background-size: cover;
